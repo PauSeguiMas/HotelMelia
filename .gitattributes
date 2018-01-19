@@ -1,2 +1,154 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="logotipo.png" alt="logo" style= "z-index: 100">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Inicio</a></li>
+        <li><a href="">Nosotros</a></li>
+        <li><a href="#">Projecto</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">    
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="https://fotos.muchoviaje.com/images/MG/Hotel-Gran-Meli%C3%A1-Victoria-PALMA-DE-MALLORCA-Spa-9-MG5479.jpg" alt="Los Angeles" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Piscina Climatizada</h3>
+                <p>Para que en invierno puedas bañarte</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="https://fotos.muchoviaje.com/images/MG/Hotel-Gran-Meli%C3%A1-Victoria-PALMA-DE-MALLORCA-Cafeter%C3%ADa-7-MG5479.jpg" alt="Chicago" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Bar Exterior</h3>
+                <p>Puedes tomarte algo tranquilamente</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="https://s-ec.bstatic.com/images/hotel/max1024x768/946/94643874.jpg" alt="New York" style="width:1400px;height:506px;">
+              <div class="carousel-caption">
+                <h3>HALL</h3>
+                <p>Nuestra marabillosa recepción</p>
+              </div>
+            </div>
+
+            <div class="item">
+                <img src="https://fotos.muchoviaje.com/images/MG/Hotel-Gran-Meli%C3%A1-Victoria-PALMA-DE-MALLORCA-Doble-3-MG5479.jpg" alt="New York" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Habitaciones</h3>
+                  <p>Disfruta durmiendo con vistas al mar</p>
+                </div>
+              </div>
+
+              <div class="item">
+                  <img src="http://www.amafou.com/images/img_hotel/img_2_hotel_855.jpg" alt="New York" style="width:1400px;height:506px;">
+                  <div class="carousel-caption">
+                    <h3>Piscina Exterior</h3>
+                    <p>Para refrescarte en verano</p>
+                  </div>
+                </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  
+<div class="container text-center">    
+  <h3>Descripción</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="http://www.costalessgolf.com/wp-content/uploads/2015/04/gran-victoria-room.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Habitaciones</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://fotos.muchoviaje.com/images/MG/Hotel-Gran-Meli%C3%A1-Victoria-PALMA-DE-MALLORCA-Varios-2-MG5479.jpg" class="img-responsive" style="width:300px;height:179px;" alt="Image">
+      <p>Vistas al Mar Mediterraneo</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>Es un hotel de 5 estrellas situado en primera línea del Paseo Marítimo con vistas a las maravillosas aguas azules de la Bahía.</p>
+      </div>
+      <div class="well">
+       <p>Las habitaciones han sido renovadas y la mayoría cuenta con impresionantes vistas panorámicas.</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>TP &copy; 2018</p>
+</footer>
+
+</body>
+</html>
